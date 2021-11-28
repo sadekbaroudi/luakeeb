@@ -17,7 +17,16 @@ Discord: sadekbaroudi#1258
 
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/donate?business=N8D4SUZED96F6&no_recurring=0&item_name=Fund+my+open+source+keyboard+designs%21&currency_code=USD)
 
-# Monoblock support
+# Cases
+
+## Split case
+
+You can find the split cases here:
+https://github.com/sadekbaroudi/luakeeb/tree/master/cases
+
+I only included the left side, since you can use your slicing software to mirror it to 3d print the right side.
+
+## Monoblock support
 
 This keyboard has the exact same layout as the ffkb ( https://github.com/sadekbaroudi/ffkb )
 

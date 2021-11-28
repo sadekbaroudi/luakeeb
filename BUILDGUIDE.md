@@ -19,7 +19,7 @@ For this pcb, here are the components you will need:
 
 You will need to have the case before you solder, since the switches are soldered to the pcb.
 
-https://github.com/sadekbaroudi/luakeeb/tree/master/cases/case
+https://github.com/sadekbaroudi/luakeeb/tree/master/cases
 
 Print the left case and bottom plate. You can use your slicing software to do horizontal mirroring to print the right case and plate.
 
@@ -38,7 +38,7 @@ Bottom side:
 * Diodes
 * Per key leds
 * Headers or socket for the Pro micro compatible MCU (recommend you do this before the switches, so you can solder the headers from the top of the pcb)
-* Switches
+* Switches (note that you'll need the case ready to go at this point, since the switches need to already be in the case when you solder them to the pcb)
 * Pro micro (the pro micro should go in the correct direction, please be careful about this, as it's easy to put it in backwards)
 
 Note: Once you solder the pro micro, you can no longer access the solder points below it. So make sure everything is done before you do this
