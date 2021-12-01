@@ -1,4 +1,4 @@
-Ref,Val,Package,PosX,PosY,Rot,Side
+Designator,Val,Package,"Mid X","Mid Y",Rotation,Layer
 "D7","1N4148W","D_SOD-123",69.665293,-62.207204,90.000000,top
 "D8","1N4148W","D_SOD-123",69.677993,-81.219104,90.000000,top
 "D9","1N4148W","D_SOD-123",69.779593,-100.269104,90.000000,top
