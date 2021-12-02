@@ -38,11 +38,6 @@ It was designed in such a way that it is perfectly compatible with the ffkb case
 
 # Firmware
 
-Link below. Remember that the left and right half use different firmware due to the fact that the diode direction is flipped between the halves. I created two configs, one for the left, and one for the right. If you copy the config.left.h/config.right.h to config.h before building, it will generate the appropriate firmware for that half.
-
-I made a script to make this simpler if you run your builds in linux:
-https://github.com/sadekbaroudi/qmk_firmware/blob/master/bin/build-luakeeb-default.sh
-
 The general folder for the firmware is here:
 https://github.com/sadekbaroudi/qmk_firmware/tree/master/keyboards/xoiviox/luakeeb/
 

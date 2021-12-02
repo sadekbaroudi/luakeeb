@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>C:\Users\sadek\Documents\keyboard-pcbs\bgkeeb\pcb-150width\luakeeb.sch</source>
-    <date>11/27/2021 12:47:39 AM</date>
+    <source>C:\Users\sadek\Documents\keyboard-pcbs\luakeeb\pcb\luakeeb.sch</source>
+    <date>12/2/2021 9:40:25 AM</date>
     <tool>Eeschema (5.1.10)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -1290,10 +1290,10 @@
       <uri>C:\Program Files\KiCad\share\kicad\library/Switch.lib</uri>
     </library>
     <library logical="keebio">
-      <uri>C:\Users\sadek\Documents\keyboard-pcbs\bgkeeb\pcb-150width/libraries/keebio.lib</uri>
+      <uri>C:\Users\sadek\Documents\keyboard-pcbs\luakeeb\pcb/libraries/keebio.lib</uri>
     </library>
     <library logical="kicad-keyboard-parts">
-      <uri>C:\Users\sadek\Documents\keyboard-pcbs\bgkeeb\pcb-150width/libraries/kicad-keyboard-parts.pretty/Schematic Library/kicad-keyboard-parts.lib</uri>
+      <uri>C:\Users\sadek\Documents\keyboard-pcbs\luakeeb\pcb/libraries/kicad-keyboard-parts.pretty/Schematic Library/kicad-keyboard-parts.lib</uri>
     </library>
   </libraries>
   <nets>

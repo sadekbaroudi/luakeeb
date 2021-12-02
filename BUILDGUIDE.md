@@ -4,13 +4,14 @@ For this pcb, here are the components you will need:
 
 | Component   | Quantity    | Link |
 | ----------- | ----------- | ------------ |
-| MCU (Pro Micro compatible, Elite-c compatible, or nice!nano compatible     | 1       | Google it, they're everywhere |
+| MCU (Pro Micro compatible, Elite-c compatible, or nice!nano compatible     | 2       | Google it, they're everywhere |
 | SMD Diodes 0805   | 44       | https://www.lcsc.com/product-detail/Switching-Diode_TWGMC-1N4148W_C727110.html |
-| SMD 10k resistor (optional, you can solder the pads together)   | 1       | https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.html |
+| SMD 10k resistor (optional, you can solder the pads together)   | 2       | https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.html |
 | M2 10mm standoffs | 8 | https://keeb.io/products/m2-screws-and-standoffs?variant=47432051590 |
 | M2 4-5mm screws | 16 | https://www.amazon.com/uxcell-0-4mm-Stainless-Socket-DIN912/dp/B01M5DVE9R |
 | Reset switch | 2 | https://www.digikey.com/en/products/detail/c&k/PTS526%2520SM15%2520SMTR2%2520LFS/10056633 |
 | TRRS jack | 2 | https://keeb.io/collections/diy-parts/products/trrs-jack-3-5mm |
+| TRRS cable | 1 | https://www.amazon.com/3-5MM-Right-Stereo-Silver-Plating-Copper/dp/B07G36MZ1P |
 | SK6812 mini-e LED (optional)   | 42       | https://www.adafruit.com/product/4960 |
 | EC11 Rotary encoder (optional)   | 2       | https://www.adafruit.com/product/377 |
 | Pimoroni trackball (optional) | 1 | https://shop.pimoroni.com/products/trackball-breakout |
