@@ -2,7 +2,9 @@
 
 Lua Keyboard (luakeeb)
 
-This is a reversible 95mm x 138mm pcb with support for mx switches (no hotswap), per key led, rotary encoders, and exposes the SDA/SCL/GND/VCC lines in the form of the pimoroni trackball pins (meaning you can add that as well, though the case doesn't support it, so you'll need to devise your own mechanism).
+This is a reversible 95mm x 138mm pcb with support for mx switches (no hotswap), per key led, rotary encoders, and exposes the SDA/SCL/GND/VCC lines in the form of the pimoroni trackball pins (meaning you can add that as well, though the case doesn't support it, so you'll need to devise your own mechanism). It also supports the adafruit qwiic connector, so you can add that connector and access I2C (the sda/scl pins) via a standard format!
+
+See https://www.sparkfun.com/qwiic for details
 
 Note that the 6th column can be broken off. The only thing you need to do is (if using per key leds) solder the jumper near the bottom outside of the board, near the mounting hole. You should solder the jumper on the bottom side of the board (if left half, bottom side of the left half, if right half, bottom side of the right half)
 
