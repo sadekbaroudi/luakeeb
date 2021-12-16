@@ -1019,17 +1019,6 @@ Text GLabel 3150 3250 2    50   Input ~ 0
 row0
 Text GLabel 1750 3450 0    50   Input ~ 0
 row1
-$Comp
-L power:GND #PWR0110
-U 1 1 613DF971
-P 3150 2750
-F 0 "#PWR0110" H 3150 2500 50  0001 C CNN
-F 1 "GND" V 3155 2622 50  0000 R CNN
-F 2 "" H 3150 2750 50  0001 C CNN
-F 3 "" H 3150 2750 50  0001 C CNN
-	1    3150 2750
-	0    -1   -1   0   
-$EndComp
 Text GLabel 3150 3350 2    50   Input ~ 0
 col0
 Text GLabel 1750 3250 0    50   Input ~ 0
@@ -1938,29 +1927,6 @@ Wire Wire Line
 Text GLabel 4700 10500 2    50   Input ~ 0
 RESET
 $Comp
-L Device:R_Small R1
-U 1 1 61BC85AE
-P 4450 10250
-F 0 "R1" H 4509 10296 50  0000 L CNN
-F 1 "10k" H 4509 10205 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 4450 10250 50  0001 C CNN
-F 3 "~" H 4450 10250 50  0001 C CNN
-F 4 "C17414" H 4450 10250 50  0001 C CNN "LCSC"
-	1    4450 10250
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR0116
-U 1 1 61BC85B4
-P 4450 10000
-F 0 "#PWR0116" H 4450 9850 50  0001 C CNN
-F 1 "+5V" H 4465 10173 50  0000 C CNN
-F 2 "" H 4450 10000 50  0001 C CNN
-F 3 "" H 4450 10000 50  0001 C CNN
-	1    4450 10000
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0117
 U 1 1 61BC85BA
 P 3700 10750
@@ -1971,13 +1937,6 @@ F 3 "" H 3700 10750 50  0001 C CNN
 	1    3700 10750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4700 10500 4450 10500
-Wire Wire Line
-	4450 10500 4450 10350
-Connection ~ 4450 10500
-Wire Wire Line
-	4450 10150 4450 10000
 Wire Wire Line
 	3700 10500 3700 10750
 $Comp
@@ -1991,8 +1950,6 @@ F 3 "~" H 4050 10700 50  0001 C CNN
 	1    4050 10500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4250 10500 4450 10500
 Wire Wire Line
 	3700 10500 3850 10500
 Wire Wire Line
@@ -2489,4 +2446,81 @@ Wire Wire Line
 Connection ~ 7650 9950
 Wire Wire Line
 	7650 9950 7750 9950
+$Comp
+L Connector:Conn_01x02_Female J4
+U 1 1 61BC80F1
+P 1450 1750
+F 0 "J4" H 1342 1425 50  0000 C CNN
+F 1 "Conn_01x02_Female" H 1342 1516 50  0000 C CNN
+F 2 "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal" H 1450 1750 50  0001 C CNN
+F 3 "~" H 1450 1750 50  0001 C CNN
+F 4 "C173752" H 1450 1750 50  0001 C CNN "LCSC"
+	1    1450 1750
+	-1   0    0    1   
+$EndComp
+Text GLabel 3150 2750 2    50   Input ~ 0
+B-
+Text GLabel 3150 2650 2    50   Input ~ 0
+B+
+Text GLabel 2950 1750 2    50   Input ~ 0
+B+
+Text GLabel 2950 1650 2    50   Input ~ 0
+B-
+Wire Wire Line
+	1650 1650 1750 1650
+Wire Wire Line
+	1900 1650 1900 1550
+Wire Wire Line
+	1900 1550 2450 1550
+Wire Wire Line
+	2450 1550 2450 1650
+Wire Wire Line
+	2450 1650 2950 1650
+Wire Wire Line
+	2500 1750 2950 1750
+$Comp
+L Connector:Conn_01x02_Female J5
+U 1 1 61CE24AE
+P 1450 2100
+F 0 "J5" H 1342 1775 50  0000 C CNN
+F 1 "Conn_01x02_Female" H 1342 1866 50  0000 C CNN
+F 2 "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal" H 1450 2100 50  0001 C CNN
+F 3 "~" H 1450 2100 50  0001 C CNN
+F 4 "C173752" H 1450 2100 50  0001 C CNN "LCSC"
+	1    1450 2100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1650 2000 1750 2000
+Wire Wire Line
+	1750 2000 1750 1650
+Connection ~ 1750 1650
+Wire Wire Line
+	1750 1650 1900 1650
+$Comp
+L Switch:SW_DPDT_x2 SW17
+U 1 1 61E32BEB
+P 2300 1750
+F 0 "SW17" H 2300 1425 50  0000 C CNN
+F 1 "SW_DPDT_x2" H 2300 1516 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_CuK_OS102011MA1QN1_SPDT_Angled" H 2300 1750 50  0001 C CNN
+F 3 "~" H 2300 1750 50  0001 C CNN
+F 4 "C226259" H 2300 1750 50  0001 C CNN "LCSC"
+	1    2300 1750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2000 1750 2000 1650
+Wire Wire Line
+	2000 1650 2100 1650
+Wire Wire Line
+	1650 1750 2000 1750
+Wire Wire Line
+	2050 2100 2050 1850
+Wire Wire Line
+	2050 1850 2100 1850
+Wire Wire Line
+	1650 2100 2050 2100
+Wire Wire Line
+	4250 10500 4700 10500
 $EndSCHEMATC

@@ -1019,17 +1019,6 @@ Text GLabel 3150 3250 2    50   Input ~ 0
 row0
 Text GLabel 1750 3450 0    50   Input ~ 0
 row1
-$Comp
-L power:GND #PWR0110
-U 1 1 613DF971
-P 3150 2750
-F 0 "#PWR0110" H 3150 2500 50  0001 C CNN
-F 1 "GND" V 3155 2622 50  0000 R CNN
-F 2 "" H 3150 2750 50  0001 C CNN
-F 3 "" H 3150 2750 50  0001 C CNN
-	1    3150 2750
-	0    -1   -1   0   
-$EndComp
 Text GLabel 3150 3350 2    50   Input ~ 0
 col0
 Text GLabel 1750 3250 0    50   Input ~ 0
@@ -2445,10 +2434,10 @@ Wire Wire Line
 Wire Wire Line
 	7200 10250 7350 10250
 $Comp
-L Connector:Conn_01x04_Female J?
+L Connector:Conn_01x04_Female J3
 U 1 1 61C75CCD
 P 7000 10800
-F 0 "J?" H 6892 10375 50  0000 C CNN
+F 0 "J3" H 6892 10375 50  0000 C CNN
 F 1 "Conn_01x04_Female" H 6892 10466 50  0000 C CNN
 F 2 "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical" H 7000 10800 50  0001 C CNN
 F 3 "~" H 7000 10800 50  0001 C CNN
@@ -2489,4 +2478,79 @@ Wire Wire Line
 Connection ~ 7650 9950
 Wire Wire Line
 	7650 9950 7750 9950
+$Comp
+L Connector:Conn_01x02_Female J4
+U 1 1 61BC80F1
+P 1450 1750
+F 0 "J4" H 1342 1425 50  0000 C CNN
+F 1 "Conn_01x02_Female" H 1342 1516 50  0000 C CNN
+F 2 "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal" H 1450 1750 50  0001 C CNN
+F 3 "~" H 1450 1750 50  0001 C CNN
+F 4 "C173752" H 1450 1750 50  0001 C CNN "LCSC"
+	1    1450 1750
+	-1   0    0    1   
+$EndComp
+Text GLabel 3150 2750 2    50   Input ~ 0
+B-
+Text GLabel 3150 2650 2    50   Input ~ 0
+B+
+Text GLabel 2950 1750 2    50   Input ~ 0
+B+
+Text GLabel 2950 1650 2    50   Input ~ 0
+B-
+Wire Wire Line
+	1650 1650 1750 1650
+Wire Wire Line
+	1900 1650 1900 1550
+Wire Wire Line
+	1900 1550 2450 1550
+Wire Wire Line
+	2450 1550 2450 1650
+Wire Wire Line
+	2450 1650 2950 1650
+Wire Wire Line
+	2500 1750 2950 1750
+$Comp
+L Connector:Conn_01x02_Female J5
+U 1 1 61CE24AE
+P 1450 2100
+F 0 "J5" H 1342 1775 50  0000 C CNN
+F 1 "Conn_01x02_Female" H 1342 1866 50  0000 C CNN
+F 2 "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal" H 1450 2100 50  0001 C CNN
+F 3 "~" H 1450 2100 50  0001 C CNN
+F 4 "C173752" H 1450 2100 50  0001 C CNN "LCSC"
+	1    1450 2100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1650 2000 1750 2000
+Wire Wire Line
+	1750 2000 1750 1650
+Connection ~ 1750 1650
+Wire Wire Line
+	1750 1650 1900 1650
+$Comp
+L Switch:SW_DPDT_x2 SW?
+U 1 1 61E32BEB
+P 2300 1750
+F 0 "SW?" H 2300 1425 50  0000 C CNN
+F 1 "SW_DPDT_x2" H 2300 1516 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_CuK_OS102011MA1QN1_SPDT_Angled" H 2300 1750 50  0001 C CNN
+F 3 "~" H 2300 1750 50  0001 C CNN
+F 4 "C226259" H 2300 1750 50  0001 C CNN "LCSC"
+	1    2300 1750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2000 1750 2000 1650
+Wire Wire Line
+	2000 1650 2100 1650
+Wire Wire Line
+	1650 1750 2000 1750
+Wire Wire Line
+	2050 2100 2050 1850
+Wire Wire Line
+	2050 1850 2100 1850
+Wire Wire Line
+	1650 2100 2050 2100
 $EndSCHEMATC
