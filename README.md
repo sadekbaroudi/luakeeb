@@ -41,7 +41,7 @@ It was designed in such a way that it is perfectly compatible with the ffkb case
 # Firmware
 
 The general folder for the firmware is here:
-https://github.com/sadekbaroudi/qmk_firmware/tree/master/keyboards/xoiviox/luakeeb/
+https://github.com/sadekbaroudi/qmk_firmware/tree/master/keyboards/fingerpunch/luakeeb/
 
 # Pictures
 
