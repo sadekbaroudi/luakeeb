@@ -24,6 +24,11 @@ https://github.com/sadekbaroudi/luakeeb/tree/master/cases
 
 Print the left case and bottom plate. You can use your slicing software to do horizontal mirroring to print the right case and plate.
 
+## Updated cases
+
+I have moved my cases and instructions here:
+https://github.com/sadekbaroudi/fingerpunch/tree/master/keyboards/luakeeb/cases
+
 # Building
 
 As mentioned in the README.md, if you break off the 6th column, remember to solder the jumper on the bottom side of the board. You only need to do this if using per key LEDs. This reroutes the LED signal appropriately.
